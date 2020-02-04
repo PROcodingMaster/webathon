@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    /*background: #6c73ac;*/
+    /*background: white(250, 250, 250);*/   
+   /*background: #42455ae3;*/
+   background-image:linear-gradient(rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.8) ) ,url("2.jpg");
+   background-size: cover;
+    
+  }
+
+.menu{
+    display:inline-flex;
+    margin:15px;
+    border-radius: 15px;
+    border:rgb(179, 179, 179) solid 3px;
+   background: #42455a;
+}
+.menu li{
+    list-style: none;
+    margin: 0 10px;
+    color:#c9c9c9;
+    cursor: pointer;
+    padding:15px 50px;
+}
+.diamondLogo{
+    padding-left: 20px;
+    width:30px;
+    margin-top:10px;
+}
+.Dash{
+    color:#19dafa !important;
+}
+.sign-btn{
+    position: absolute;
+    top: 20px;
+    right:80px;
+    text-decoration: none;
+    color:white;
+    border:2px solid transparent;
+    background-image: linear-gradient(rgba(248, 91, 209, 0.493), rgba(12, 146, 235, 0.644));
+    padding: 10px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(22, 37, 247, 0.829);
+}
+.log-btn{
+    position: absolute;
+    top: 18px;
+    right:180px;
+    text-decoration: none;
+    color:white;
+    border:2px solid transparent;
+    background-image: linear-gradient(rgba(248, 91, 209, 0.493), rgba(12, 146, 235, 0.644));
+    padding: 11px;
+    border-radius: 20px;
+    margin-right:50px;
+    border: 1.5px solid rgba(22, 37, 247, 0.829);
+}
+.top-wrapper{
+    border-top:4px solid white;
+    border-bottom:4px solid white;
+    margin: 0;
+    background-image: url("1.jpeg");
+    background-size: cover;
+}
+.container{
+    font-size: 25px;
+    padding: 140px;
+    text-align:center;
+    text-underline-position: below;
+    letter-spacing: 3px;
+    backdrop-filter: blur(2px);
+}
+.container h1{
+    color: rgba(255, 255, 255, 0.945);
+    font-weight: bold;
+   
+}
+.container h2{
+    color: rgb(247, 247, 247, 0.8) ;
+}
+.top-text{
+    border: rgb(255, 255, 255) solid 8px ;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+.lesson-heading{
+    font-size: 36px;
+    color:whitesmoke;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+.lesson-heading h1{
+    text-decoration: underline;
+}
+.lesson{
+    float: left;
+}
+img.resize{
+    margin-top: 0px;
+    margin-left: 100px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(247, 249, 255, 0.9);
+    border-radius: 120px;
+    border:3px solid blue
+}
+.lesson-wrapper{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4) ) , url("c back.jpg");
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: cover;
+    padding-top: -100px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+}
+.text{
+    font-size: 20px;
+    backdrop-filter: blur(8px);
+    padding:30px 60px;
+    border-radius: 40px;
+    height: auto;
+    margin:30px; 
+    margin-left: 10px;
+    margin-top: 5px;
+    color:white; 
+    /*background-color: rgba(0, 0, 0, 1);*/ 
+}
+.text h1{
+    text-decoration:underline;
+    font-size: 40px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.test-c{
+    margin-top:50px; 
+    outline: none;
+    border: 2px solid black;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding:10px 60px;
+    box-shadow: 5px 5px black;
+}
+.lesson-c{
+    margin-top: 10px;
+    border: 2px solid black;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding:10px 5px;
+    box-shadow: 5px 5px black;
+}
+.test-c:hover {
+    background-color: gray;
+}
+.test-c:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+.lesson-c:hover {
+    background-color: gray;
+}
+.lesson-c:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+.sign-btn:hover{
+    background-color: rgba(0, 0, 255, 0.808);
+}
+.log-btn:hover{
+    background-color: rgba(0, 0, 255, 0.808);
+}
+.lesson-wrapper:hover {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6) ) , url("c back.jpg");
+}
+.text:hover {
+    background-color: rgba(255, 255, 255, 0.226);
+}
+.text h1:hover{
+    color:white;
+}
+/*Sign up window*/
+.bg-modal{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+.modal-content{
+    color:black;
+    background-color: white;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+input {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+.modal-content img{
+    width: 80px;
+    margin: 10px 210px;
+}
+.close{
+    position: absolute;
+    right:20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+/*c quiz window*/
+.c-quiz{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.c-quiz-content{
+    color:black;
+    background-color: white;
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    font-size: 20px;
+}
+.c-quiz-content img{
+    width: 80px;
+    margin: 10px 210px;
+}
+.c-quiz-ques{
+    font-size: 22px;
+    text-align: left;
+    padding-left: 20px;
+}
+.close-quiz{
+    position: absolute;
+    right:20px;
+    font-size: 30px;
+    cursor: pointer;
+}
